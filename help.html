@@ -3,98 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="help.css"/>
 </head>
 
 <body>
 <div class="wrap">
-    <div class="header"> header </div>
-    <div class="main_wrap">
-        <div class="panel">left
-            <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-        <li>Item 5</li>
-        <li>Item 6</li>
-        <li>Item 7</li>
-        <li>Item 8</li>
-        <li>Item 9</li>
-        <li>Item 10</li>
-        <li>Item 11</li>
-        <li>Item 12</li>
-        <li>Item 13</li>
-        <li>Item 14</li>
-        <li>Item 15</li>
-        <li>Item 16</li>
-        <li>Item 17</li>
-        <li>Item 18</li>
-        <li>Item 19</li>
-        <li>Item 20</li>
-        <li>Item 21</li>
-        <li>Item 22</li>        <li>Item 9</li>
-        <li>Item 10</li>
-        <li>Item 11</li>
-        <li>Item 12</li>
-        <li>Item 13</li>
-        <li>Item 14</li>
-        <li>Item 15</li>
-        <li>Item 16</li>
-        <li>Item 17</li>
-        <li>Item 18</li>
-        <li>Item 19</li>
-        <li>Item 20</li>
-        <li>Item 21</li>
-        <li>Item 22</li>
-        <li>Item 23</li>
-        <li>Item 24</li>
-        <li>Item 25</li>
-        <li>Item 26</li>
-              </ul>
+    <div class="header">
+        <div class="left-side">
+            <i class="fas fa-bars" id="menu_icon"></i>
+            <img src="image/yt_logo_rgb_dark.png" id="logo"/>
         </div>
-        <div class="main">right
-            <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-        <li>Item 5</li>
-        <li>Item 6</li>
-        <li>Item 7</li>
-        <li>Item 8</li>
-        <li>Item 9</li>
-        <li>Item 10</li>
-        <li>Item 11</li>
-        <li>Item 12</li>
-        <li>Item 13</li>
-        <li>Item 14</li>
-        <li>Item 15</li>
-        <li>Item 16</li>
-        <li>Item 17</li>
-        <li>Item 18</li>
-        <li>Item 19</li>
-        <li>Item 20</li>
-        <li>Item 21</li>
-        <li>Item 22</li>        <li>Item 9</li>
-        <li>Item 10</li>
-        <li>Item 11</li>
-        <li>Item 12</li>
-        <li>Item 13</li>
-        <li>Item 14</li>
-        <li>Item 15</li>
-        <li>Item 16</li>
-        <li>Item 17</li>
-        <li>Item 18</li>
-        <li>Item 19</li>
-        <li>Item 20</li>
-        <li>Item 21</li>
-        <li>Item 22</li>
-        <li>Item 23</li>
-        <li>Item 24</li>
-        <li>Item 25</li>
-        <li>Item 26</li>
-              </ul>
+        <!--   검색창    -->
+        <div class="search_bar">
+            <input class="search" placeholder="검색"/>
+            <div id="button">
+                <a href="https://www.youtube.com/results?search_query=hello+world"><i class="fas fa-search"></i></a>
+            </div>
+        </div>
+        <!--   오른쪽 메뉴들   -->
+        <div class="small_menu">
+            <ul class="menu_list">
+                <li><i class="fas fa-video"></i></li>
+                <li><i class="fas fa-th"></i></li>
+                <li><i class="fas fa-share-alt"></i></li>
+                <li><i class="fas fa-bell"></i></li>
+                <img src="image/Trump.jpg" id="user"/>
+            </ul>
+        </div>
+    </div>
+    <div class="main_wrap">
+        <div class="panel">
+            <div id="first-menu">
+                <ul>
+                    <li><i class="fas fa-home"></i>홈</li>
+                    <li><i class="fas fa-fire"></i>인기</li>
+                    <li><i class="fas fa-layer-group"></i>구독</li>
+                    <li><i class="fab fa-youtube"></i>Originals</li>
+                </ul>
+            </div>
+            <hr/>
+            <div id="second-menu">
+                <ul>
+                    <li><i class="fas fa-folder"></i>라이브러리</li>
+                    <li><i class="fas fa-history"></i>최근 본 동영상</li>
+                    <li><i class="fas fa-clock"></i>나중에 볼 동영상</li>
+                    <li><i class="fas fa-tag"></i>구입한 동영상</li>
+                    <li><i class="fas fa-thumbs-up"></i>좋아요 표시한 동영상</li>
+                </ul>
+            </div>
+            <hr/>
+            <div id="first-menu">
+                <ul>
+                    <li><i class="fas fa-home"></i>홈</li>
+                    <li><i class="fas fa-fire"></i>인기</li>
+                    <li><i class="fas fa-layer-group"></i>구독</li>
+                    <li><i class="fab fa-youtube"></i>Originals</li>
+                </ul>
+            </div>
+            <hr/>
+            <div id="second-menu">
+                <ul>
+                    <li><i class="fas fa-folder"></i>라이브러리</li>
+                    <li><i class="fas fa-history"></i>최근 본 동영상</li>
+                    <li><i class="fas fa-clock"></i>나중에 볼 동영상</li>
+                    <li><i class="fas fa-tag"></i>구입한 동영상</li>
+                    <li><i class="fas fa-thumbs-up"></i>좋아요 표시한 동영상</li>
+                </ul>
+            </div>
+            <hr/>
+        </div>
+        <div class="main">
+            <div class="vid_con">
+                <p>구독중인 아티스트의 재생목록</p>
+                <div class="first-vid-row">
+                    <div class="vid">
+                        <img src="image/재용1.jpg"/>
+                        <p>직원들 몰래 아이폰 구매한 후기</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/재용2.jpg"/>
+                        <p>평양에서 김정은 마주친 썰</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/재용3.jpg"/>
+                        <p>동생몰래 신라호텔 계산안하고 튀기</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/재용4.jpg"/>
+                        <p>최애간식 등극(?) 뿌링콜팝 먹방</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/재용5.jpg"/>
+                        <p>천만구독자 기념 이벤트(페라리 20대)</p>
+                    </div>
+                </div>
+                <hr/>
+                <p>맞춤 동영상</p>
+                <div class="first-vid-row">
+                    <div class="vid">
+                        <img src="image/스캐1.jpeg"/>
+                        <p>직원들 몰래 아이폰 구매한 후기</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/스캐2.jpeg"/>
+                        <p>평양에서 김정은 마주친 썰</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/스캐3.jpeg"/>
+                        <p>동생몰래 신라호텔 계산안하고 튀기</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/스캐4.jpeg"/>
+                        <p>최애간식 등극(?) 뿌링콜팝 먹방</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/스캐5.jpeg"/>
+                        <p>천만구독자 기념 이벤트(페라리 20대)</p>
+                    </div>
+                </div>
+                <hr/>
+                                <p>구독중인 아티스트의 재생목록</p>
+                <div class="first-vid-row">
+                    <div class="vid">
+                        <img src="image/재용1.jpg"/>
+                        <p>직원들 몰래 아이폰 구매한 후기</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/재용2.jpg"/>
+                        <p>평양에서 김정은 마주친 썰</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/재용3.jpg"/>
+                        <p>동생몰래 신라호텔 계산안하고 튀기</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/재용4.jpg"/>
+                        <p>최애간식 등극(?) 뿌링콜팝 먹방</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/재용5.jpg"/>
+                        <p>천만구독자 기념 이벤트(페라리 20대)</p>
+                    </div>
+                </div>
+                <hr/>
+                <p>맞춤 동영상</p>
+                <div class="first-vid-row">
+                    <div class="vid">
+                        <img src="image/스캐1.jpeg"/>
+                        <p>직원들 몰래 아이폰 구매한 후기</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/스캐2.jpeg"/>
+                        <p>평양에서 김정은 마주친 썰</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/스캐3.jpeg"/>
+                        <p>동생몰래 신라호텔 계산안하고 튀기</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/스캐4.jpeg"/>
+                        <p>최애간식 등극(?) 뿌링콜팝 먹방</p>
+                    </div>
+                    <div class="vid">
+                        <img src="image/스캐5.jpeg"/>
+                        <p>천만구독자 기념 이벤트(페라리 20대)</p>
+                    </div>
+                </div>
+                <hr/>
+            </div>
         </div>
     </div>
 </div>
